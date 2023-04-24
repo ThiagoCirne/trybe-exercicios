@@ -1,4 +1,4 @@
-# trybe-exercicios
+# Portfófio de Exercícios
 
 Exercícios da trybe
 
@@ -6,5 +6,4 @@ Exercícios da trybe
 
 ## Para instalar, digite:
 
-
-## Para executar, digite:
+## Para executar, digite;
