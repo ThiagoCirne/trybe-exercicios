@@ -11,7 +11,7 @@ console.log("Módulo :", b % a);
 
 -------------------------------------------------------------*/
 /*2 - Utilize if/else para escrever um código que retorne o maior de dois números. 
-Defina, no começo do seu código, duas variáveis com os valores que serão comparados.*/
+Defina, no começo do seu código, duas variáveis com os valores que serão comparados.
 
 /*let c = 25;
 let d = 34;
@@ -22,7 +22,7 @@ if (c > d) {
     console.log("o numero :", d ,"é maior");
 --------------------------------------------------------------------------*/
 /*3 - Utilize if/else para escrever um código que retorne o maior de três números. 
-Defina, no começo do seu código, três variáveis com os valores que serão comparados.*/
+Defina, no começo do seu código, três variáveis com os valores que serão comparados.
 
 /*let number1 = 35;
 let number2 = 45;
@@ -37,7 +37,7 @@ if (number1 > number2 && number1 > number4) {
 }
 -------------------------------------------------------------*/
 /*4 - Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne: 
-“positive”, se esse valor for positivo; “negative”, se esse valor for negativo, e “zero”, caso esse valor não seja nem positivo nem negativo.*/
+“positive”, se esse valor for positivo; “negative”, se esse valor for negativo, e “zero”, caso esse valor não seja nem positivo nem negativo.
 
 let number = 0;
 
@@ -48,7 +48,24 @@ if (number > 0) {
 } else {
     console.log("zero");
 }
+--------------------------------------------------------------------------*/
+/*5 - 🚀 Utilize if/else para escrever um código que defina três variáveis com os valores dos três ângulos internos de um triângulo. 
+Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido, 
+você deve retornar uma mensagem de erro.
 
+let a = 45;
+let b = 45;
+let c = 90;
+
+
+if (a + b + c === 180) {
+    console.log("true");    
+} else if (a + b + c > 180 || a + b + c > 0) {
+    console.log("false");
+} else {
+    console.log("erro");
+}
+---------------------------------------------------------------------------*/
 
 
 
