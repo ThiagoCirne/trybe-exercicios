@@ -1,15 +1,15 @@
-let resultado = 'Aprovada';
+let processo = 'aprovada';
 
-switch (resultado) {
-    case 'Aprovada':
-        break;
-        console.log("Parabén, você está no grupo de pessoas aprovadas!");
-    case 'Lista':
-        break;
-        console.log("Você está na nossa lista de espera");
-    case 'reprovada':
-        break;
-        console.log("Infelizmente, você reprovou");  
+switch (processo) {
+    case 'aprovada':
+      console.log("Parabén, você está no grupo de pessoas aprovadas!");
+      break;
+    case 'lista':     
+      console.log("Você está na nossa lista de espera");
+    case 'reprovada':     
+      console.log("Infelizmente, você reprovou");
+      break;  
     default:
-        console.log("Informação incorreta"); 
+        console.log("informaçao incorreta"); 
 }
+
