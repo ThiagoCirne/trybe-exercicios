@@ -8,7 +8,8 @@ console.log("Subtração :", a - b);
 console.log("Multiplicação :", a * b);
 console.log("Divisão :", a / b);
 console.log("Módulo :", b % a);
-*/
+
+-------------------------------------------------------------*/
 /*2 - Utilize if/else para escrever um código que retorne o maior de dois números. 
 Defina, no começo do seu código, duas variáveis com os valores que serão comparados.*/
 
@@ -19,4 +20,36 @@ if (c > d) {
     console.log("O número :", c ,"é maior");
 } else 
     console.log("o numero :", d ,"é maior");
-*/
+--------------------------------------------------------------------------*/
+/*3 - Utilize if/else para escrever um código que retorne o maior de três números. 
+Defina, no começo do seu código, três variáveis com os valores que serão comparados.*/
+
+/*let number1 = 35;
+let number2 = 45;
+let number4 = 65;
+
+if (number1 > number2 && number1 > number4) {
+    console.log(number1 , "é maio");
+} else if (number2 > number1 && number2 > number4) {
+    console.log(number2 , "é maior");
+} else {
+    console.log (number4, "é maior");
+}
+-------------------------------------------------------------*/
+/*4 - Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne: 
+“positive”, se esse valor for positivo; “negative”, se esse valor for negativo, e “zero”, caso esse valor não seja nem positivo nem negativo.*/
+
+let number = 0;
+
+if (number > 0) {
+    console.log("número positivo");
+} else if (number < 0) {
+    console.log("número negativo");
+} else {
+    console.log("zero");
+}
+
+
+
+
+
